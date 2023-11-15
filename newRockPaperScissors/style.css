@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Asap, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1rem .8rem;
+    padding: 1rem .5rem;
+    /* border: 1px solid red; */
+    max-width: 100%;
+    color: #25272E;
+}
+
+.container{
+    max-width: 100%;
+    height: 90vh;
+    background: #F5F5F5;
+    color: black;
+    padding: 1rem;
+}
+.scoreboard{
+   margin: 20px auto;
+   border: 3px solid black;
+   width: 200px;
+   border-radius: 4px;
+   color: black;
+   padding: 15px 20px;
+   font-family: Asap, sans-serif;
+   font-size: 40px;
+   height: 70px;
+   position: relative;
+}
+
+.badge{
+    background: #E25840;
+    font-size: 18px;
+    color: black;
+
+}
+#userLabel{
+    padding: .2rem;
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    
+}
+#compLabel{
+    padding: .2rem;
+    position: absolute;
+    top: 20px ;
+    right: -25px;
+}
+#userScore{
+    margin-left: 2rem;
+}
+p.outputMessage{
+    padding: .2rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices{
+    margin: 2rem .8rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+   justify-content: center;
+}
+
+img{
+    width: auto;
+    height: 80px;
+    border: 4px solid black;
+    border-radius: 50%;
+    cursor: pointer ;
+    padding: .5rem;
+    transform: all 0.3s ease;
+}
+img:hover{
+    background-color: #F0F8FF;
+}
+#gameOn{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder ;
+}
+
+/* .greenGlow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.redGlow{   
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 0 10px #d01115;
+}
+
+.grayGlow{
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+} */
