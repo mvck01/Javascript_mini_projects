@@ -75,3 +75,20 @@ reloadBtn.addEventListener('click', function(){
     location.reload()
 })
 
+
+//not reLated to Game.
+
+const sumUp= function(numbers){
+    let sum =0;
+    for(let num of numbers){
+        sum= sum +num
+    }
+    return sum
+}
+console.log(sumUp([2,4,6,5,10]))
+
+
+const originalArray=[1,2,3,4]
+
+let newArray =[... originalArray]
+console.log(newArray)
